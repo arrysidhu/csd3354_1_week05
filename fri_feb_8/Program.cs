@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 
 namespace FRI_FEB_8
 {
@@ -7,7 +6,8 @@ namespace FRI_FEB_8
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Elevator e = new Elevator();
+            e.run();
         }
     }
 
