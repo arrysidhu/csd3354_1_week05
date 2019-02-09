@@ -60,10 +60,12 @@ namespace FRI_FEB_8
             while (temp != null)
             {
                 Console.WriteLine(temp.FloorNumber);
+
                 temp = temp.elevatorUp;
 
             }
 
         }
     }
+    
 }
